@@ -6,7 +6,6 @@
 from gtts import gTTS
 import os
 from random import randint
-from mutagen.mp3 import MP3
 from time import sleep
 
 
