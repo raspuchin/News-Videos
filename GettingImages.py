@@ -14,16 +14,6 @@ WEBDRIVER_PATH = ''
 IMAGES_PATH = ''
 extensions = {'jpg', 'jpeg', 'png'}
 
-def formatKeywords(keywords):
-    formatted = []
-
-    for keyword in keywords:
-        keyword = ' '.join(re.findall(r'[A-Z](?:[a-z]+|[A-Z]*(?=[A-Z]|$))', keyword)).lower()
-
-        formatted.append(keyword)
-
-    return formatted
-
 def getImageFromGoogle(keywords):
     driver = webdriver.Chrome(WEBDRIVER_PATH)
 
