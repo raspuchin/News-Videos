@@ -10,8 +10,8 @@ import os
 import re
 import sys
 
-WEBDRIVER_PATH = '/mnt/c/Users/Sachin/Desktop/Coding sections/Summarized Video/bin/chromedriver.exe'
-IMAGES_PATH = '/mnt/c/Users/Sachin/Desktop/Coding sections/Summarized Video/images/'
+WEBDRIVER_PATH = ''
+IMAGES_PATH = ''
 extensions = {'jpg', 'jpeg', 'png'}
 
 def formatKeywords(keywords):
