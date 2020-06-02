@@ -6,7 +6,6 @@
 from VideoMaker import makeVideo, clear_temp
 from GettingImages import getImage
 from KeywordExtraction import load, getKeywordList
-import pandas as pd
 import os
 from time import sleep
 
